@@ -1,0 +1,93 @@
+#projetos {
+    background: #18072c;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+.projetos h2, .projetos a {
+    text-align: center;
+}
+
+.projetos h2 {
+    padding-bottom: 70px;
+}
+.altura-ajuste3{
+    width: 100%;
+}
+
+.git-link{ 
+     text-align: center;
+    background-color: #2a1743;
+    border-radius: 25px;
+    width: 84rem;
+    height: 25px;
+    align-items: center;
+}
+.git-link:hover{
+    transform: scale(1.50);
+    transition-delay: 150ms;
+}
+
+.proj {
+    background-color: #18072c;
+    height: 195px;
+    width: 35vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.proj div p {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #e8e3e3;
+}
+
+.proj:hover {
+    letter-spacing: 5px;
+}
+
+.proj div {
+    background-color: #5d13b2;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(0deg);
+    border-radius: 7px;
+}
+.projetos-itens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+@media (max-width:1200px) {
+  .projetos{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #projetos {
+      display: flex;
+      justify-content: center;
+  }
+
+  .projetos-itens {
+      flex-direction: column;
+  }
+
+}
+@media (max-width:950px) {
+    .pro {
+        max-width: 300px;
+    }
+
+}

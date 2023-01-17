@@ -1,0 +1,35 @@
+#sobre-mim{
+    background: #18072c;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+.altura-ajuste2{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 50px;
+    margin-top: -17px;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+    color: rgb(254, 254, 254);
+    text-align: center;
+    padding-bottom: 56px;
+    margin-bottom: -17px;
+    
+    
+}
+.perfil {
+    max-width: 200px;
+    
+    
+}
+.perfil:hover{
+    transform: scale(1.08);
+}

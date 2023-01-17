@@ -1,0 +1,103 @@
+#certificados {
+    background: #18072c;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+
+}
+.certificados h2, .certificados a {
+    text-align: center;
+}
+
+.certificados h2 {
+    padding-bottom: 70px;
+    
+}
+
+.git-link{
+    text-align: center;
+    background-color: #18072c;
+    width: 23.5rem;
+    height: 25px;
+    align-items: center;
+    
+}
+.altura-ajuste4{
+    width: 100%;
+}
+
+
+.git-link:hover{
+    transform: scale(1.0);
+    transition-delay: 150ms;
+}
+.proj2 {
+    background-color: #18072c;
+    
+    height: 10rem;
+    width: 16rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    transition: ease-in-out 0.3s;
+}
+
+.proj2 div a {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    color: #e8e3e3;
+}
+
+.proj2:hover {
+    letter-spacing: 5px;
+}
+
+.proj2 div {
+    background-color: #5d13b2;
+    width: 1000px;
+    text-align: center;
+    padding: 5% 0;
+    transform: rotate(0deg);
+    border-radius: 7px;
+}
+.projetos-itens2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+    justify-content: center;
+}
+
+@media (width:100%) {
+  .certificados{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+
+  #certificados {
+      display: flex;
+      justify-content: center;
+  }
+
+  .projetos-itens2 {
+      flex-direction: column;
+  }
+
+}
+@media (width:100%) {
+    .pro {
+        width: 100%;
+    }
+
+}
+#icons{
+    background: #18072c;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
