@@ -30,9 +30,9 @@
 }
 
 .proj {
-    background-color: #18072c;
-    height: 195px;
-    width: 35vh;
+   background-color: #18072c;
+    height: 10rem;
+    width: 16rem;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@
     justify-content: center;
 }
 
-@media (max-width:1200px) {
+@media (max-width:100%) {
   .projetos{
       text-align: center;
       display: flex;
@@ -85,9 +85,9 @@
   }
 
 }
-@media (max-width:950px) {
+@media (max-width:100%) {
     .pro {
-        max-width: 300px;
+        max-width: 100%;
     }
 
 }
