@@ -4,7 +4,7 @@
 </p>
 
 <br>
-<p>Link: </p>
+<p>Link: https://feallandg.github.io/portf-lio/ </p>
 <p>✨Este e meu primeiro projeto utilizando HTML e CSS, sobre mim😄. </p>
 <div class="icon">
 <p>✨Tecnologias utilizadas para esse projeto:</p>
